@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_IMAGE = 'YOUR_DOCKER_USERNAME/custom-nginx' 
+        DOCKER_IMAGE = 'rajvignesh1/custom-nginx' 
         IMAGE_TAG = "v${env.BUILD_NUMBER}" 
     }
     
